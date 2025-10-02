@@ -9,7 +9,7 @@ export const generateSummaryFromGemini = async (pdfText: string) => {
       model: "gemini-2.5-flash",
       config: {
         temperature: 0.7,
-        maxOutputTokens: 1500,
+        maxOutputTokens: 3000,
       },
       contents: [
         {
